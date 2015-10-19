@@ -7,7 +7,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-from {{ cookiecutter.project_slug }}.__meta__ import __version__, __author__, __email__ 
+from {{ cookiecutter.project_slug }}.__meta__ import __version__, __author__, __email__
 
 with open('README.rst') as readme_file:
     README = readme_file.read()
@@ -61,7 +61,7 @@ setup(
 
     # -- self - tests --------------------------------------------------------
     test_suite='tests',
-    tests_require=TEST_REQUIREMENTS
+    tests_require=TEST_REQUIREMENTS,
 
     # -- script entry points -----------------------------------------------
     entry_points={'console_scripts': []}
