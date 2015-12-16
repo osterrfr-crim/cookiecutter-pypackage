@@ -1,9 +1,9 @@
 .. :changelog:
 
 History
--------
+=======
 
-{{ cookiecutter.version }} ({{ cookiecutter.release_date }})
+{{ cookiecutter.version }}
 ---------------------
 
 * First structured release.
