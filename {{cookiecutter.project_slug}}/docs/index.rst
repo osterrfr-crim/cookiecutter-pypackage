@@ -1,8 +1,13 @@
 Welcome to {{ cookiecutter.project_name }}'s documentation!
 ======================================
 
+.. include:: ../README.rst
+
+User's guide
+------------
+
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :caption: Contents:
 
    readme
